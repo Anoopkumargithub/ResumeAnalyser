@@ -39,7 +39,7 @@ const UploadResume = () => {
 
       try {
         const response = await axios.post(
-          "http://localhost:5001/api/form/upload-resume",
+          "https://resumeanalyserdev02.onrender.com/api/form/upload-resume",
           formData,
           {
             headers: {

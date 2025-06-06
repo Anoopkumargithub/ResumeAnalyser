@@ -38,7 +38,7 @@ const ResumeUpload = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5001/api/analyze",
+        "https://resumeanalyserdev02.onrender.com/api/analyze",
         formData,
         {
           headers: {

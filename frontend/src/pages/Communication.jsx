@@ -387,7 +387,7 @@ const Communication = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:5001/api/communication/comm",
+        "https://resumeanalyserdev02.onrender.com/api/communication/comm",
         {
           method: "POST",
           headers: {

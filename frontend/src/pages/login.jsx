@@ -22,7 +22,7 @@ const Login = () => {
       if (existingToken) {
         // Validate the token with the backend
         const validateResponse = await fetch(
-          "http://localhost:5001/api/auth/login",
+          "https://resumeanalyserdev02.onrender.com/api/auth/login",
           {
             method: "POST",
             headers: {
@@ -42,7 +42,7 @@ const Login = () => {
       }
 
       // If no valid token, proceed with login request
-      const response = await fetch("http://localhost:5001/api/auth/login", {
+      const response = await fetch("https://resumeanalyserdev02.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
